@@ -76,7 +76,7 @@ function onProposalSaveComplete(response, status)
 		
 //UPDATE==========================================
 $(document).on("click",".btnUpdate",function(event) {
-	$("#hidIdSave").val($(this).data("proposal_ID"));
+	$("#hidIDSave").val($(this).data("proposal_ID"));
 	$("#ProjectName").val($(this).closest("tr").find('td:eq(0)').text());
 	$("#budget").val($(this).closest("tr").find('td:eq(1)').text());
 	$("#CompletionDate").val($(this).closest("tr").find('td:eq(2)').text());
